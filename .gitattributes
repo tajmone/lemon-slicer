@@ -1,3 +1,7 @@
+################################################################################
+# LEMON SLICER, a de-amalgamator for the Lemon parser generator:               #
+# https://github.com/tajmone/lemon-slicer                                      #
+################################################################################
 
 # Set Git's default behaviour to text-files autodetection, in case users
 # don't have `core.autocrlf` set:
@@ -5,6 +9,14 @@
 
 # Explicitly declare commonly used file extensions as either text or binary,
 # and tell Git how to handle line-endings normalization.
+
+## =============
+## Lemon sources
+## =============
+*.c     text
+*.c     linguist-vendored=true
+*.h     text
+*.h     linguist-vendored=true
 
 ## ===============
 ## PureBasic files

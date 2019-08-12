@@ -1,3 +1,7 @@
+################################################################################
+# LEMON SLICER, a de-amalgamator for the Lemon parser generator:               #
+# https://github.com/tajmone/lemon-slicer                                      #
+################################################################################
 
 ## ===============
 ## PureBasic files
@@ -10,6 +14,11 @@
 *.pbi.cfg
 *.pbp
 project.cfg
+
+## =============
+## Sliced output
+## =============
+/sliced/
 
 ## ===============
 ## Misc Work Files
@@ -32,6 +41,11 @@ ___*.*
 *.exe
 *.out
 *.so
+
+## ==========
+## Exceptions
+## ==========
+!lemon-slicer.exe
 
 # ==============================================================================
 #                             COMMON IGNORE PATTERNS
